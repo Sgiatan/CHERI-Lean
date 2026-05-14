@@ -1,0 +1,14 @@
+name = "Formalisation"
+version = "0.1.0"
+defaultTargets = ["formalisation"]
+
+[[lean_lib]]
+name = "Formalisation"
+
+[[lean_exe]]
+name = "formalisation"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
