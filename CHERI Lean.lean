@@ -1,6 +1,5 @@
 -- This module serves as the root of the `Formalisation` library.
 -- Import modules here that should be built as part of the library.
-import Formalisation.Basic
 import Mathlib
 
 abbrev Address := Nat
